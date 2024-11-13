@@ -1,5 +1,3 @@
-
-
 ## Candidate Management Application
 
 
