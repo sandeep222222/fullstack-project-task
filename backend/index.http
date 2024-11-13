@@ -1,0 +1,99 @@
+
+POST http://localhost:3000/candidates
+Content-Type: application/json
+
+[
+  {
+    "name": "John Doe",
+    "phone": "1234567890",
+    "email": "johndoe@example.com",
+    "gender": "Male",
+    "experience": 5,
+    "skills": ["JavaScript", "Node.js", "Express"]
+  },
+  {
+    "name": "Jane Smith",
+    "phone": "2345678901",
+    "email": "janesmith@example.com",
+    "gender": "Female",
+    "experience": 3,
+    "skills": ["Python", "Django", "React"]
+  },
+  {
+    "name": "Mike Johnson",
+    "phone": "3456789012",
+    "email": "mikejohnson@example.com",
+    "gender": "Male",
+    "experience": 2,
+    "skills": ["Java", "Spring Boot", "Hibernate"]
+  },
+  {
+    "name": "Emily Davis",
+    "phone": "4567890123",
+    "email": "emilydavis@example.com",
+    "gender": "Female",
+    "experience": 4,
+    "skills": ["C#", ".NET", "Angular"]
+  },
+  {
+    "name": "David Lee",
+    "phone": "5678901234",
+    "email": "davidlee@example.com",
+    "gender": "Male",
+    "experience": 6,
+    "skills": ["PHP", "Laravel", "Vue.js"]
+  },
+  {
+    "name": "Sarah Wilson",
+    "phone": "6789012345",
+    "email": "sarahwilson@example.com",
+    "gender": "Female",
+    "experience": 1,
+    "skills": ["Ruby", "Rails", "JavaScript"]
+  },
+  {
+    "name": "Chris Brown",
+    "phone": "7890123456",
+    "email": "chrisbrown@example.com",
+    "gender": "Male",
+    "experience": 7,
+    "skills": ["Go", "Kubernetes", "Docker"]
+  },
+  {
+    "name": "Anna Thomas",
+    "phone": "8901234567",
+    "email": "annathomas@example.com",
+    "gender": "Female",
+    "experience": 8,
+    "skills": ["Swift", "iOS Development", "Xcode"]
+  },
+  {
+    "name": "James Taylor",
+    "phone": "9012345678",
+    "email": "jamestaylor@example.com",
+    "gender": "Male",
+    "experience": 5,
+    "skills": ["Android Development", "Kotlin", "Java"]
+  },
+  {
+    "name": "Laura White",
+    "phone": "0123456789",
+    "email": "laurawhite@example.com",
+    "gender": "Female",
+    "experience": 2,
+    "skills": ["HTML", "CSS", "JavaScript"]
+  }
+]
+
+
+###
+
+GET http://localhost:3000/candidates
+
+
+###
+
+
+PUT http://localhost:3000/candidates
+
+###
